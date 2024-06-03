@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image'
-import messageByLocale from '@/app/assets/messageByLocale'
-import { Locale } from '@/app/lib/types'
+import messageByLocale from '@/assets/messageByLocale'
+import { Locale } from '@/lib/types'
 
 type Props = {
   locale: Locale

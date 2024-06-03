@@ -1,9 +1,9 @@
-import { getProfileData } from '@/app/lib/queries'
-import LanguageSelector from '@/app/components/Header/LocaleSelect'
+import { getProfileData } from '@/lib/queries'
+import LanguageSelector from '@/components/Header/LocaleSelect'
 import { getLocale } from 'next-intl/server'
-import ThemeButton from '@/app/components/Header/ThemeButton'
+import ThemeButton from '@/components/Header/ThemeButton'
 import { cookies } from 'next/headers'
-import { Locale } from '@/app/lib/types'
+import { Locale } from '@/lib/types'
 
 export default async function Header() {
   const locale = (await getLocale()) as Locale

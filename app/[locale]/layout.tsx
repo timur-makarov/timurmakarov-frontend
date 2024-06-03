@@ -4,7 +4,7 @@ import 'flag-icons/css/flag-icons.min.css'
 import '../globals.scss'
 import { NextIntlClientProvider } from 'next-intl'
 import { Metadata } from 'next'
-import { getHeadMetadata } from '@/app/lib/queries'
+import { getHeadMetadata } from '@/lib/queries'
 
 const inter = Inter({ subsets: ['latin'], weight: ['400', '600', '700'] })
 

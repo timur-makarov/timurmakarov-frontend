@@ -1,5 +1,5 @@
-import Header from '@/app/components/Header'
-import ProfileImage from '@/app/components/ProfileImage'
+import Header from '@/components/Header'
+import ProfileImage from '@/components/ProfileImage'
 
 export default function Home() {
   return (
