@@ -14,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -35,7 +36,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "code.cleanup.on.save": "true",
-    "last_opened_file_path": "C:/Users/MadPc/Desktop/work/proj/timurmakarov.com/frontend",
+    "last_opened_file_path": "C:/Users/MadPc/Desktop/work/proj/timurmakarov.com/frontend/app/components/Header",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.stylelint": "true",
@@ -47,23 +48,26 @@
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "C:\\Users\\MadPc\\Desktop\\work\\proj\\timurmakarov.com\\frontend\\node_modules\\prettier",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "actions.on.save",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "ts.external.directory.path": "C:\\Users\\MadPc\\Desktop\\work\\proj\\timurmakarov.com\\frontend\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend\app\components\Header" />
       <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend\public\images" />
+      <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend\public\icons" />
       <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend\app\components\Header" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-WS-241.14494.235" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.17011.90" />
       </set>
     </attachedChunks>
   </component>
