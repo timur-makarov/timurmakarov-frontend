@@ -47,7 +47,9 @@ export default function LanguageSelector() {
             <button
               onClick={() => setIsOpen(!isOpen)}
               type="button"
-              className="inline-flex items-center justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              className="inline-flex items-center justify-center w-full rounded-md border
+              border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700
+              hover:bg-gray-50 dark-bg dark:border-gray-500"
               id={LANGUAGE_SELECTOR_ID}
               aria-haspopup="true"
               aria-expanded={isOpen}
@@ -72,21 +74,18 @@ export default function LanguageSelector() {
 
           {isOpen && (
             <div
-              className="origin-top-right absolute right-0 mt-2 w-36 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5"
+              className="origin-top-right absolute right-0 mt-2 w-36 shadow-lg bg-white dark-bg"
               role="menu"
               aria-orientation="vertical"
               aria-labelledby="language-selector"
             >
-              <div className="py-1 grid grid-cols-1 gap-2" role="none">
-                {languages.map((language, index) => {
+              <div className="grid grid-cols-1" role="none">
+                {languages.map((language) => {
                   return (
                     <a key={language.key} href={'/' + language.key}>
                       <button
-                        className={`${
-                          selectedLanguage.key === language.key
-                            ? 'bg-gray-100 text-gray-900'
-                            : 'text-gray-700'
-                        } px-4 w-36 py-2 text-sm text-left items-center inline-flex hover:bg-gray-100 ${index % 2 === 0 ? 'rounded-r' : 'rounded-l'}`}
+                        className={`px-4 w-36 py-2 text-sm text-left items-center inline-flex dark-bg
+                        dark:border-gray-500 hover:bg-gray-100 dark:hover:bg-gray-700`}
                         role="menuitem"
                       >
                         <FlagIcon countryCode={language.key} />

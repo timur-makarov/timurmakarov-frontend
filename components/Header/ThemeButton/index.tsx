@@ -1,7 +1,7 @@
 'use client'
-import Image from 'next/image'
 import messageByLocale from '@/assets/messageByLocale'
 import { Locale } from '@/lib/types'
+import { IoMoonSharp, IoSunnySharp } from 'react-icons/io5'
 
 type Props = {
   locale: Locale
@@ -15,7 +15,7 @@ export default function ThemeButton({ locale, themeNumber }: Props) {
     window.location.reload()
   }
 
-  const themeType = themeNumber === '0' ? 'light' : 'dark'
+  const themeType = themeNumber === '0' ? 'dark' : 'light'
   const message = messageByLocale['theme'][locale][themeType]
 
   return (
@@ -25,10 +25,11 @@ export default function ThemeButton({ locale, themeNumber }: Props) {
           <button
             onClick={handleThemeChange}
             type="button"
-            className="inline-flex items-center justify-between gap-2 w-full rounded-md border border-gray-300
-              shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
+            className="inline-flex items-center justify-between gap-2 w-full rounded-md border dark-bg
+            border-gray-300 dark:border-gray-500 shadow-sm px-4 py-2.5 bg-white text-sm font-medium
+            text-gray-700 hover:bg-gray-50"
           >
-            <Image src="/icons/theme-light-dark.svg" alt="theme" width={24} height={24} />
+            {themeNumber == '0' ? <IoMoonSharp size={20} /> : <IoSunnySharp size={20} />}
             <span>{message}</span>
           </button>
         </div>

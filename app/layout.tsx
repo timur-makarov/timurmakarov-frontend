@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import { cookies } from 'next/headers'
+import clsx from 'clsx'
 
 const inter = Inter({ subsets: ['latin'], weight: ['400', '600', '700'] })
 
@@ -31,9 +33,12 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  const theme = cookies().get('theme')?.value || '0'
+  const themeClass = theme === '0' ? 'light' : 'dark'
+
   return (
     <html>
-      <body className={inter.className}>{children}</body>
+      <body className={clsx(themeClass, inter.className)}>{children}</body>
     </html>
   )
 }

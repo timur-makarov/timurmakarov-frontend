@@ -14,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="Sass File" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
@@ -37,6 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "code.cleanup.on.save": "true",
     "last_opened_file_path": "C:/Users/MadPc/Desktop/work/proj/timurmakarov.com/frontend/app/components/Header",
+    "list.type.of.created.stylesheet": "Sass",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.stylelint": "true",
@@ -48,7 +50,7 @@
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "C:\\Users\\MadPc\\Desktop\\work\\proj\\timurmakarov.com\\frontend\\node_modules\\prettier",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
     "ts.external.directory.path": "C:\\Users\\MadPc\\Desktop\\work\\proj\\timurmakarov.com\\frontend\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -59,8 +61,9 @@
       <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend" />
       <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend\public\images" />
+      <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend\public" />
+      <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend" />
       <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend\public\icons" />
       <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend\app\components\Header" />
     </key>

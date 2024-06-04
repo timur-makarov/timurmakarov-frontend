@@ -11,7 +11,7 @@ export default async function Header() {
   const themeNumber = cookies().get('theme')?.value || '0'
 
   return (
-    <header className="px-2 py-3 md:px-12 bg-blue-100">
+    <header className="px-2 py-3 md:px-12 bg-blue-200 dark:bg-blue-900">
       <div className="flex items-center justify-between flex-col gap-4 md:flex-row">
         <h1 className="text-4xl font-bold">{data.attributes.name}</h1>
         <div className="flex items-center gap-2">

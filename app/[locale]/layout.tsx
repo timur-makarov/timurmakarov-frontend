@@ -1,12 +1,8 @@
-import { Inter } from 'next/font/google'
-
 import 'flag-icons/css/flag-icons.min.css'
 import '../globals.scss'
 import { NextIntlClientProvider } from 'next-intl'
 import { Metadata } from 'next'
 import { getHeadMetadata } from '@/lib/queries'
-
-const inter = Inter({ subsets: ['latin'], weight: ['400', '600', '700'] })
 
 export async function generateMetadata({
   params,
@@ -30,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang={locale}>
-      <body className={inter.className}>
+      <body>
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
     </html>
