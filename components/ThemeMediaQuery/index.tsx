@@ -11,6 +11,7 @@ export default function ThemeMediaQuery({ themeCookie }: Props) {
     const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
     const darkMode = mediaQuery.matches
     const root = document.body
+
     if (!themeCookie) {
       if (darkMode) {
         root.classList.add('dark')
