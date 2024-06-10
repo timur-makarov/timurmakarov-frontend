@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93b287a0-9fdf-491b-9e75-e948b723a8b2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/Header/LocaleSelect/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/Header/LocaleSelect/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/Header/ThemeButton/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/Header/ThemeButton/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/_lib/utils/cookie.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_lib/utils/cookie.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/master.env" beforeDir="false" afterPath="$PROJECT_DIR$/configs/master.env" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
