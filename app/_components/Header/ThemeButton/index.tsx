@@ -13,7 +13,7 @@ export default function ThemeButton({ locale, themeNumber }: Props) {
   function handleThemeChange() {
     const newThemeNumber = themeNumber === '0' ? '1' : '0'
     setCookie('theme', newThemeNumber, 365)
-    window.location.reload()
+    // window.location.reload()
   }
 
   const themeType = themeNumber === '0' ? 'dark' : 'light'
