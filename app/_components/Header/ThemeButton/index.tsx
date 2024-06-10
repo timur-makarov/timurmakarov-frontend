@@ -1,6 +1,6 @@
 'use client'
-import messageByLocale from '@/assets/messageByLocale'
-import { Locale } from '@/lib/types'
+import messageByLocale from '@/app/_assets/messageByLocale'
+import { Locale } from '@/app/_lib/types'
 import { IoMoonSharp, IoSunnySharp } from 'react-icons/io5'
 
 type Props = {

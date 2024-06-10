@@ -2,13 +2,12 @@ import { FaGithub, FaTelegramPlane, FaWhatsapp } from 'react-icons/fa'
 import { IoMail } from 'react-icons/io5'
 import { MdPinDrop } from 'react-icons/md'
 import ReactMarkdown from 'react-markdown'
-import { getLocale } from 'next-intl/server'
-import { Locale } from '@/lib/types'
-import { getProfileData } from '@/lib/queries'
+import { getProfileData } from '@/app/_lib/queries'
 import styles from './index.module.scss'
+import { getLocale } from '@/app/_lib/utils/i18n'
 
 export default async function Bio() {
-  const locale = (await getLocale()) as Locale
+  const locale = getLocale()
   const profileData = await getProfileData(locale)
 
   return (

@@ -1,7 +1,11 @@
 'use client'
 import styles from './index.module.scss'
 import { useEffect, useMemo, useState } from 'react'
-import { useLocale } from 'next-intl'
+import { Locale } from '@/app/_lib/types'
+
+type Props = {
+  locale: Locale
+}
 
 interface Language {
   key: string
@@ -10,10 +14,8 @@ interface Language {
 
 const LANGUAGE_SELECTOR_ID = 'language-selector'
 
-export default function LanguageSelector() {
-  const locale = useLocale()
-
-  const languages = useMemo(
+export default function LanguageSelector({ locale }: Props) {
+  const languages = useMemo<Language[]>(
     () => [
       { key: 'en', name: 'English' },
       { key: 'ru', name: 'Русский' },
@@ -38,6 +40,13 @@ export default function LanguageSelector() {
       window.removeEventListener('click', handleWindowClick)
     }
   }, [])
+
+  function getHref(language: Language) {
+    const pathname = window.location.pathname
+    return language.key === 'en'
+      ? '/' + pathname
+      : `https://${language.key}.timurmakarov.com${pathname}`
+  }
 
   return (
     <>
@@ -82,7 +91,7 @@ export default function LanguageSelector() {
               <div className="grid grid-cols-1" role="none">
                 {languages.map((language) => {
                   return (
-                    <a key={language.key} href={'/' + language.key}>
+                    <a key={language.key} href={getHref(language)}>
                       <button
                         className={`px-4 w-36 py-2 text-sm text-left items-center inline-flex dark-bg
                         dark:border-gray-500 hover:bg-gray-100 dark:hover:bg-gray-700`}
