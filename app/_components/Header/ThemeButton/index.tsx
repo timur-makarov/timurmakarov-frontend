@@ -2,6 +2,7 @@
 import messageByLocale from '@/app/_assets/messageByLocale'
 import { Locale } from '@/app/_lib/types'
 import { IoMoonSharp, IoSunnySharp } from 'react-icons/io5'
+import { setCookie } from '@/app/_lib/utils/cookie'
 
 type Props = {
   locale: Locale
@@ -10,8 +11,8 @@ type Props = {
 
 export default function ThemeButton({ locale, themeNumber }: Props) {
   function handleThemeChange() {
-    const newTheme = themeNumber === '0' ? '1' : '0'
-    document.cookie = `theme=${newTheme}; path=/`
+    const newThemeNumber = themeNumber === '0' ? '1' : '0'
+    setCookie('theme', newThemeNumber, 365)
     window.location.reload()
   }
 

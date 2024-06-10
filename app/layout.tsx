@@ -43,8 +43,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
-  const theme = getThemeNumber()
-  const themeClass = theme === '0' ? 'light' : 'dark'
+  const themeNumber = getThemeNumber()
+  const themeClass = themeNumber === '0' ? 'light' : 'dark'
   const locale = getLocale()
 
   return (
