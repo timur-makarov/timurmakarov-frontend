@@ -9,18 +9,20 @@
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   max-width: 1024px;
   margin: 0 auto;
+  padding-bottom: 80px;
+  overflow-y: scroll;
+  //font-family: "Source Serif 4", sans-serif;
 }
 
 body.dark, body.dark .dark-bg {
-  background-color: #222831;
-  color: #EEEEEE;
+  background-color: #21252d;
+  color: white;
 }
 
-
-code {
-  font-family: "Inter", sans-serif;
-  white-space: break-spaces;
+.dark-bg-in-light {
+  background-color: #21252d;
+  color: white;
 }

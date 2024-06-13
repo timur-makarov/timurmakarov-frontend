@@ -1,0 +1,17 @@
+.markdownWrapper {
+  max-width: 920px;
+  margin: 0 auto;
+  font-family: sans-serif;
+
+  h3 {
+    @apply text-xl md:text-2xl font-bold mb-3;
+  }
+
+  h4 {
+    @apply text-xl md:text-xl font-semibold mt-4 mb-2;
+  }
+
+  p {
+    @apply text-base mb-2;
+  }
+}

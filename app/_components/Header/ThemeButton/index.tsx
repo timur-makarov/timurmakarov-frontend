@@ -17,7 +17,7 @@ export default function ThemeButton({ locale, themeNumber }: Props) {
   }
 
   const themeType = themeNumber === '0' ? 'dark' : 'light'
-  const message = messageByLocale['theme'][locale][themeType]
+  const message = messageByLocale['theme'][themeType][locale]
 
   return (
     <div className="flex items-center z-40">

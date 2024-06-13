@@ -5,9 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93b287a0-9fdf-491b-9e75-e948b723a8b2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/[slug]/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/[slug]/page.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/[slug]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_components/ArticleList/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_lib/utils/cookie.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_lib/utils/cookie.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_assets/messageByLocale.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_assets/messageByLocale.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/Header/ThemeButton/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/Header/ThemeButton/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/Header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/ProfileImage/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/ProfileImage/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_lib/queries.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_lib/queries.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_lib/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_lib/types/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/not-found.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/not-found.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/master.env" beforeDir="false" afterPath="$PROJECT_DIR$/configs/master.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +33,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Sass File" />
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -43,34 +58,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.12.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.12.14&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/MadPc/Desktop/work/proj/timurmakarov.com/frontend/app/components/Header&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;Sass&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\MadPc\\Desktop\\work\\proj\\timurmakarov.com\\frontend\\node_modules\\prettier&quot;,
-    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\MadPc\\Desktop\\work\\proj\\timurmakarov.com\\frontend\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "code.cleanup.on.save": "true",
+    "git-widget-placeholder": "master",
+    "javascript.nodejs.core.library.configured.version": "20.12.0",
+    "javascript.nodejs.core.library.typings.version": "20.12.14",
+    "last_opened_file_path": "C:/Users/MadPc/Desktop/work/proj/timurmakarov.com/frontend/app/[slug]",
+    "list.type.of.created.stylesheet": "Sass",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\MadPc\\Desktop\\work\\proj\\timurmakarov.com\\frontend\\node_modules\\prettier",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Users\\MadPc\\Desktop\\work\\proj\\timurmakarov.com\\frontend\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend\app\[slug]" />
+      <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend\app\[article]" />
       <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend\app\components\Header" />
       <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend" />
     </key>

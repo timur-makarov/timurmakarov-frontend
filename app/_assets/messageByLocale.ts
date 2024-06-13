@@ -1,12 +1,22 @@
 const messageByLocale = {
   theme: {
-    en: {
-      light: 'Light',
-      dark: 'Dark',
+    light: {
+      en: 'Light',
+      ru: 'Светлая',
     },
-    ru: {
-      light: 'Светлая',
-      dark: 'Темная',
+    dark: {
+      en: 'Dark',
+      ru: 'Темная',
+    },
+  },
+  articles: {
+    title: {
+      en: 'Articles',
+      ru: 'Статьи',
+    },
+    lastUpdate: {
+      en: 'Last update',
+      ru: 'Последнее обновление',
     },
   },
 }

@@ -1,13 +1,18 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import clsx from 'clsx'
+import { Source_Serif_4 } from 'next/font/google'
 import { getLocale } from '@/app/_lib/utils/i18n'
-import { getThemeNumber } from '@/app/_lib/utils/theme'
-import { getHeadMetadata } from '@/app/_lib/queries'
 import 'flag-icons/css/flag-icons.min.css'
 import './globals.scss'
+import { getHeadMetadata } from '@/app/_lib/queries'
+import ThemeMediaQuery from '@/app/_components/ThemeMediaQuery'
+import { cookies } from 'next/headers'
+import Header from '@/app/_components/Header'
 
-const inter = Inter({ subsets: ['latin'], weight: ['400', '600', '700'] })
+const font = Source_Serif_4({
+  subsets: ['latin', 'cyrillic'],
+  weight: ['400', '600', '700'],
+  display: 'block',
+})
 
 export async function generateMetadata(): Promise<Metadata> {
   const locale = getLocale()
@@ -43,13 +48,17 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
-  const themeNumber = getThemeNumber()
-  const themeClass = themeNumber === '0' ? 'light' : 'dark'
+  const themeCookie = cookies().get('theme')?.value
+  const themeClass = themeCookie === '0' ? 'light' : themeCookie ? 'dark' : 'light'
   const locale = getLocale()
 
   return (
-    <html lang={locale}>
-      <body className={clsx(themeClass, inter.className)}>{children}</body>
+    <html lang={locale} className={font.className}>
+      <body className={themeClass}>
+        <ThemeMediaQuery themeCookie={themeCookie} />
+        <Header />
+        {children}
+      </body>
     </html>
   )
 }
