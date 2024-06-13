@@ -17,12 +17,12 @@ export async function generateMetadata({
   }
 
   return {
-    title: data.attributes.title,
+    title: data.attributes.title + ' | Timur Makarov',
     description: data.attributes.description,
     openGraph: {
       locale: locale,
       type: 'article',
-      title: data.attributes.title,
+      title: data.attributes.title + ' | Timur Makarov',
       description: data.attributes.description,
       url: `https://${locale !== 'en' ? `${locale}.` : ''}timurmakarov.com/${params.slug}`,
       publishedTime: data.attributes.createdAt,

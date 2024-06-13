@@ -10,6 +10,7 @@ export default function ProfileImage() {
         className="h-56 object-cover"
         loading="eager"
         alt="Tbilisi, Georgia"
+        quality={100}
         priority
       />
 
