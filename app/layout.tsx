@@ -21,6 +21,18 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: data.attributes.title,
     description: data.attributes.description,
+    openGraph: {
+      title: data.attributes.title,
+      description: data.attributes.description,
+      type: 'website',
+      locale: locale,
+      siteName: data.attributes.title,
+    },
+    twitter: {
+      creator: '@timurmakarov_',
+      site: '@timurmakarov_',
+      card: 'summary_large_image',
+    },
     alternates: {
       languages: {
         en: 'https://timurmakarov.com',

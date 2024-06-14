@@ -8,7 +8,7 @@ export async function GET() {
   const profileData = await getProfileData(locale)
 
   const pages: ISitemapField[] = articles.map((article) => ({
-    loc: `https://timurmakarov.com/${article.attributes.slug}`,
+    loc: `https://${locale !== 'en' ? locale : 'www'}.timurmakarov.com/${article.attributes.slug}`,
     lastmod: article.attributes.updatedAt,
     images: [
       {
