@@ -7,7 +7,7 @@ export default function NotFound() {
   const homePageText = messageByLocale.errors.homePage[locale]
 
   return (
-    <div className="flex gap-4 flex-col items-center justify-center h-full">
+    <div className="flex gap-4 flex-col items-center justify-center no-scroll-height">
       <h1 className="text-6xl">404</h1>
       <h2 className="text-4xl">{pageNotFoundText}</h2>
       <a href="/" className="underline text-blue-500">

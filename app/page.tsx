@@ -4,10 +4,10 @@ import ArticleList from './_components/ArticleList'
 
 export default function Home() {
   return (
-    <main>
+    <div className="pageWrapper">
       <ProfileImage />
       <Bio />
       <ArticleList />
-    </main>
+    </div>
   )
 }

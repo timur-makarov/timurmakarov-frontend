@@ -20,8 +20,12 @@ header {
 
 main {
   position: relative;
-  height: calc(100vh - 66px);
+  min-height: calc(100vh - 66px);
   padding-bottom: 60px;
+}
+
+.no-scroll-height {
+  height: calc(100vh - 66px - 60px);
 }
 
 body.dark, body.dark .dark-bg {
@@ -40,6 +44,10 @@ body.dark, body.dark .dark-bg {
   }
 
   main {
-    height: calc(100% + 122px);
+    min-height: calc(100vh - 122px);
+  }
+
+  .no-scroll-height {
+    height: calc(100vh - 122px - 60px);
   }
 }
