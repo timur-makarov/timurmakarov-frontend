@@ -22,8 +22,8 @@ export default async function ArticleList() {
         {articles.map((article) => (
           <a href={`/${article.attributes.slug}`} key={article.attributes.title}>
             <li className="px-6 py-6">
-              <div className="flex justify-between items-center mb-2">
-                <h3 className="font-bold text-2xl">{article.attributes.title}</h3>
+              <div className="flex flex-col md:flex-row justify-between items-center mb-2">
+                <h3 className="font-bold text-2xl text-center">{article.attributes.title}</h3>
                 <span className="text-gray-200 dark:text-gray-500 text-xs">
                   {messageByLocale.articles.lastUpdate[locale]}:{' '}
                   {displayDate(article.attributes.updatedAt)}

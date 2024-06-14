@@ -19,6 +19,16 @@ const messageByLocale = {
       ru: 'Последнее обновление',
     },
   },
+  errors: {
+    pageNotFound: {
+      en: 'Page not found',
+      ru: 'Страница не найдена',
+    },
+    homePage: {
+      en: 'Return to home page',
+      ru: 'Вернуться на главную',
+    },
+  },
 }
 
 export default messageByLocale

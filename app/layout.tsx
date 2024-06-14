@@ -57,7 +57,7 @@ export default function RootLayout({
       <body className={themeClass}>
         <ThemeMediaQuery themeCookie={themeCookie} />
         <Header />
-        {children}
+        <main>{children}</main>
       </body>
     </html>
   )

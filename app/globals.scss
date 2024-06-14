@@ -10,11 +10,19 @@
 
 body {
   min-height: 100vh;
+  height: 100vh;
   max-width: 1024px;
   margin: 0 auto;
-  padding-bottom: 80px;
   overflow-y: scroll;
-  //font-family: "Source Serif 4", sans-serif;
+}
+
+header {
+  height: 66px;
+}
+
+main {
+  position: relative;
+  height: calc(100% - 66px);
 }
 
 body.dark, body.dark .dark-bg {
