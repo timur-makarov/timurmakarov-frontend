@@ -16,6 +16,7 @@ export type ProfileData = {
   id: number
   attributes: {
     name: string
+    jobTitle: string
     bio: string
   }
 }
@@ -56,7 +57,9 @@ export type ArticleData = {
 }
 
 export async function getArticles(locale: string): Promise<ArticleData[]> {
-  const res = await fetch(getURL('articles', locale), { headers: defaultHeaders })
+  const res = await fetch(getURL('articles', locale, { populate: 'image' }), {
+    headers: defaultHeaders,
+  })
 
   if (!res.ok) {
     throw new Error('Failed to fetch articles')

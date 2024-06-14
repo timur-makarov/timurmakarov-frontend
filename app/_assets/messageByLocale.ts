@@ -29,6 +29,12 @@ const messageByLocale = {
       ru: 'Вернуться на главную',
     },
   },
+  bioLinks: {
+    location: {
+      en: 'Tbilisi',
+      ru: 'Тбилиси',
+    },
+  },
 }
 
 export default messageByLocale

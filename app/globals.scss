@@ -9,8 +9,6 @@
 }
 
 body {
-  min-height: 100vh;
-  height: 100vh;
   max-width: 1024px;
   margin: 0 auto;
   overflow-y: scroll;
@@ -22,7 +20,8 @@ header {
 
 main {
   position: relative;
-  height: calc(100% - 66px);
+  height: calc(100vh - 66px);
+  padding-bottom: 60px;
 }
 
 body.dark, body.dark .dark-bg {
@@ -33,4 +32,14 @@ body.dark, body.dark .dark-bg {
 .dark-bg-in-light {
   background-color: #21252d;
   color: white;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 122px;
+  }
+
+  main {
+    height: calc(100% + 122px);
+  }
 }
