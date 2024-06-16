@@ -3,6 +3,7 @@ ARG CONFIG
 ARG API_TOKEN
 WORKDIR /app
 COPY package.json .
+RUN npm i -g husky
 RUN npm i
 COPY . .
 RUN test -n "${API_TOKEN}"
