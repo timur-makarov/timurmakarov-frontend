@@ -1,9 +1,7 @@
 import { getArticleBySlug } from '@/app/_lib/queries'
 import { getLocale } from '../_lib/utils/i18n'
 import Image from 'next/image'
-import ReactMarkdown from 'react-markdown'
-import styles from './page.module.scss'
-import clsx from 'clsx'
+import BlockRendererClient from '@/app/_components/BlockRendererClient'
 
 export default async function Home({ params }: { params: { slug: string } }) {
   const locale = getLocale()
@@ -28,11 +26,12 @@ export default async function Home({ params }: { params: { slug: string } }) {
         priority
       />
 
-      <h1 className="text-4xl font-bold text-center my-6">{article.attributes.title}</h1>
-
-      <ReactMarkdown className={clsx(styles.markdownWrapper, 'px-2 lg:px-0')}>
-        {article.attributes.content}
-      </ReactMarkdown>
+      <div className="richTextWrapper">
+        <h1 className="text-4xl md:text-5xl font-bold text-center my-10">
+          {article.attributes.title}
+        </h1>
+        <BlockRendererClient content={article.attributes.content} />
+      </div>
     </div>
   )
 }
