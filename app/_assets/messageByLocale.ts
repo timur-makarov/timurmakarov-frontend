@@ -18,6 +18,10 @@ const messageByLocale = {
       en: 'Last update',
       ru: 'Последнее обновление',
     },
+    subtitle: {
+      en: 'No BS, no fluff, always up to date',
+      ru: 'Без воды и всегда актуальны',
+    },
   },
   errors: {
     pageNotFound: {

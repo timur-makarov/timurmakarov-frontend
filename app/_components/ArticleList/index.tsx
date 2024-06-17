@@ -16,7 +16,10 @@ export default async function ArticleList() {
 
   return (
     <div className="mt-8 px-2 lg:px-0">
-      <h1 className="text-3xl font-semibold mb-4">{messageByLocale.articles.title[locale]}</h1>
+      <h1 className="text-3xl font-semibold">{messageByLocale.articles.title[locale]}</h1>
+      <p className="text-gray-500 dark:text-gray-400 mb-5">
+        {messageByLocale.articles.subtitle[locale]}
+      </p>
 
       <ul className="dark-bg-in-light dark:bg-white rounded-lg shadow divide-y divide-gray-200 dark:text-black">
         {articles.map((article) => (
