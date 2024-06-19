@@ -51,7 +51,13 @@ export async function generateMetadata(): Promise<Metadata> {
         sizes: '16x16',
         url: '/favicon-16x16.png',
       },
+      {
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
+        url: '/apple-touch-icon.png',
+      },
     ],
+    manifest: '/site.webmanifest',
   }
 }
 
