@@ -5,12 +5,11 @@ export default function ProfileImage() {
     <div className="relative">
       <Image
         src="/images/tbilisi.jpg"
-        width={1024}
-        height={224}
+        width={1920}
+        height={1085}
         className="h-56 object-cover"
         loading="eager"
         alt="Tbilisi, Georgia"
-        quality={100}
         priority
       />
 
