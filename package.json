@@ -13,7 +13,6 @@
     "@strapi/blocks-react-renderer": "^1.0.1",
     "clsx": "^2.1.1",
     "flag-icons": "^7.2.3",
-    "i18next": "^23.11.5",
     "next": "14.2.3",
     "next-sitemap": "^4.2.3",
     "react": "^18",
