@@ -19,7 +19,7 @@ const messageByLocale = {
       ru: 'Последнее обновление',
     },
     subtitle: {
-      en: 'No BS, no fluff, always up to date',
+      en: 'No fluff and always up to date',
       ru: 'Без воды и всегда актуальны',
     },
   },

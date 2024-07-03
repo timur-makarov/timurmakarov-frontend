@@ -12,6 +12,7 @@ body {
   max-width: 1024px;
   margin: 0 auto;
   overflow-y: scroll;
+  background: #f5f5f5;
 }
 
 header {
@@ -40,7 +41,9 @@ body.dark, body.dark .dark-bg {
 
 @layer base {
   .richTextWrapper {
-    @apply px-4 lg:px-0 max-w-[800px] mx-auto text-lg;
+    @apply px-4 lg:px-0 max-w-[680px] mx-auto;
+    font-size: 1.1rem;
+    font-family: sans-serif;
 
     blockquote {
       @apply p-4 my-4 border-s-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800;

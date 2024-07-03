@@ -27,9 +27,7 @@ export default async function Home({ params }: { params: { slug: string } }) {
       />
 
       <div className="richTextWrapper">
-        <h1 className="text-4xl md:text-5xl font-bold text-center my-10">
-          {article.attributes.title}
-        </h1>
+        <h1 className="text-4xl font-bold text-center my-8">{article.attributes.title}</h1>
         <BlockRendererClient content={article.attributes.content} />
       </div>
     </div>

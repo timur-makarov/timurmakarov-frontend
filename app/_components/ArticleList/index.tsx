@@ -21,7 +21,7 @@ export default async function ArticleList() {
         {messageByLocale.articles.subtitle[locale]}
       </p>
 
-      <ul className="dark-bg-in-light dark:bg-white rounded-lg shadow divide-y divide-gray-200 dark:text-black">
+      <ul className="dark-bg-in-light dark:bg-[#f5f5f5] rounded-lg shadow divide-y divide-gray-200 dark:text-black">
         {articles.map((article) => (
           <a href={`/${article.attributes.slug}`} key={article.attributes.title}>
             <li className="px-6 py-6">

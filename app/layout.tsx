@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Source_Serif_4 } from 'next/font/google'
+import { EB_Garamond, Source_Serif_4 } from 'next/font/google'
 import { getLocale } from '@/app/_lib/utils/i18n'
 import 'flag-icons/css/flag-icons.min.css'
 import './globals.scss'
@@ -7,8 +7,15 @@ import { getHeadMetadata } from '@/app/_lib/queries'
 import ThemeMediaQuery from '@/app/_components/ThemeMediaQuery'
 import { cookies } from 'next/headers'
 import Header from '@/app/_components/Header'
+import clsx from 'clsx'
 
 const font = Source_Serif_4({
+  subsets: ['latin', 'cyrillic'],
+  weight: ['400', '600', '700'],
+  display: 'block',
+})
+
+const font2 = EB_Garamond({
   subsets: ['latin', 'cyrillic'],
   weight: ['400', '600', '700'],
   display: 'block',
@@ -71,7 +78,7 @@ export default function RootLayout({
   const locale = getLocale()
 
   return (
-    <html lang={locale} className={font.className}>
+    <html lang={locale} className={clsx(font.className)}>
       <body className={themeClass}>
         <ThemeMediaQuery themeCookie={themeCookie} />
         <Header />
