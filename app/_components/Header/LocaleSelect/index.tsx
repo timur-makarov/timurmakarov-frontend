@@ -88,7 +88,7 @@ export default function LanguageSelector({ locale }: Props) {
               <div className="grid grid-cols-1" role="none">
                 {languages.map((language) => {
                   return (
-                    <a key={language.key} href={getHref(language)}>
+                    <a key={language.key} target="_self" href={getHref(language)}>
                       <button
                         className={`px-4 w-full py-2 text-sm text-left items-center inline-flex
                         dark:border-gray-500 hover:bg-gray-100 dark:hover:bg-gray-700`}
