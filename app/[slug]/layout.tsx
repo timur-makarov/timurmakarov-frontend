@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { getLocale } from '@/app/_lib/utils/i18n'
-import { ArticleData, getArticleBySlug, getProfileData } from '@/app/_lib/queries'
+import { ArticleData, getArticleBySlug } from '@/app/_lib/queries'
 import { notFound } from 'next/navigation'
 
 export async function generateMetadata({
@@ -9,7 +9,6 @@ export async function generateMetadata({
   params: { slug: string }
 }): Promise<Metadata> {
   const locale = getLocale()
-  const profileData = await getProfileData(locale)
 
   let data: ArticleData
 
@@ -19,12 +18,12 @@ export async function generateMetadata({
   }
 
   return {
-    title: data.attributes.title + ` | ${profileData.attributes.name}`,
+    title: data.attributes.title,
     description: data.attributes.description,
     openGraph: {
       locale: locale,
       type: 'article',
-      title: data.attributes.title + ` | ${profileData.attributes.name}`,
+      title: data.attributes.title,
       description: data.attributes.description,
       url: `https://${locale !== 'en' ? `${locale}.` : ''}timurmakarov.com/${params.slug}`,
       publishedTime: data.attributes.createdAt,

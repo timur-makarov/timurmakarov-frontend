@@ -1,25 +1,28 @@
 import Image from 'next/image'
+import coverImage from '@/public/images/tbilisi.jpg'
+import profileImage from '@/public/images/avatar.jpg'
 
 export default function ProfileImage() {
   return (
     <div className="relative">
       <Image
-        src="/images/tbilisi.jpg"
+        src={coverImage}
         width={1024}
         height={224}
         className="h-56 object-cover"
-        loading="eager"
         alt="Tbilisi, Georgia"
+        loading="eager"
         priority
       />
 
       <Image
-        src="/images/avatar.jpg"
+        src={profileImage}
         width={100}
         height={150}
-        loading="eager"
         className="absolute bottom-0 left-0"
         alt="Timur Makarov avatar"
+        loading="eager"
+        priority
       />
     </div>
   )
