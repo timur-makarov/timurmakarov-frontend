@@ -8,6 +8,7 @@ import ThemeMediaQuery from '@/app/_components/ThemeMediaQuery'
 import { cookies } from 'next/headers'
 import Header from '@/app/_components/Header'
 import clsx from 'clsx'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const font = Source_Serif_4({
   subsets: ['latin', 'cyrillic'],
@@ -74,6 +75,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   const themeCookie = cookies().get('theme')?.value
+  const gaIdCookie = cookies().get('gaId')?.value || ''
   const themeClass = themeCookie === '0' ? 'light' : themeCookie ? 'dark' : 'light'
   const locale = getLocale()
 
@@ -83,6 +85,7 @@ export default function RootLayout({
         <ThemeMediaQuery themeCookie={themeCookie} />
         <Header />
         <main>{children}</main>
+        <GoogleAnalytics gaId={gaIdCookie} />
       </body>
     </html>
   )

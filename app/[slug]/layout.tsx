@@ -9,7 +9,6 @@ export async function generateMetadata({
   params: { slug: string }
 }): Promise<Metadata> {
   const locale = getLocale()
-
   let data: ArticleData
 
   data = await getArticleBySlug(locale, params.slug)

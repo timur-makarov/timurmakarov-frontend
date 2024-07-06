@@ -42,7 +42,7 @@ body.dark, body.dark .dark-bg {
 @layer base {
   .richTextWrapper {
     @apply px-4 lg:px-0 max-w-[680px] mx-auto;
-    font-size: 1.1rem;
+    font-size: 1.075rem;
     font-family: sans-serif;
 
     blockquote {
@@ -50,15 +50,12 @@ body.dark, body.dark .dark-bg {
     }
 
     h2 {
-      @apply text-2xl md:text-3xl font-bold mb-4;
+      @apply text-2xl md:text-3xl font-bold mb-6 pb-2;
+      border-bottom: 1px solid;
     }
 
     h3 {
-      @apply text-xl md:text-2xl font-semibold mb-3;
-
-      a {
-        @apply hover:underline;
-      }
+      @apply text-xl md:text-2xl font-semibold mb-4;
     }
 
     p {
@@ -66,7 +63,7 @@ body.dark, body.dark .dark-bg {
     }
 
     ol {
-      @apply list-decimal list-inside ;
+      @apply list-decimal list-inside;
     }
   }
 }
@@ -86,6 +83,5 @@ body.dark, body.dark .dark-bg {
 
   .richTextWrapper {
     font-size: 1rem;
-    line-height: 1.5rem;
   }
 }
