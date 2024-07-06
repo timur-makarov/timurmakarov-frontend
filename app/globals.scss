@@ -69,6 +69,12 @@ body.dark, body.dark .dark-bg {
     ol {
       @apply list-decimal list-inside;
     }
+
+    ul {
+      a {
+        @apply underline
+      }
+    }
   }
 }
 
