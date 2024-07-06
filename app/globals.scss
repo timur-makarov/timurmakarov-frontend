@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  scroll-padding-top: 5%;
+}
+
 * {
   padding: 0;
   margin: 0;

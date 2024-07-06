@@ -20,6 +20,21 @@ export default function BlockRendererClient({ content }: { content: BlocksConten
             />
           )
         },
+        heading: ({ children, level, plainText }) => {
+          // @ts-ignore
+          const text: string = children?.[0]?.props?.text
+            ?.replaceAll(/(?=\S)(?=\W)\W/g, '')
+            .replaceAll(' ', '-')
+
+          switch (level) {
+            case 2:
+              return <h2 id={text}>{children}</h2>
+            case 3:
+              return <h3 id={text}>{children}</h3>
+            default:
+              return <h4 id={text}>{children}</h4>
+          }
+        },
       }}
     />
   )
