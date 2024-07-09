@@ -72,8 +72,12 @@ body.dark, body.dark .dark-bg {
 
     ul {
       a {
-        @apply underline
+        @apply underline;
       }
+    }
+
+    img {
+      @apply mx-auto mb-4;
     }
   }
 }
