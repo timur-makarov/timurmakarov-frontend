@@ -66,12 +66,12 @@ body.dark, body.dark .dark-bg {
       @apply list-decimal list-inside;
     }
 
+    a {
+      @apply underline;
+    }
+    
     ul {
       @apply mb-4;
-
-      a {
-        @apply underline;
-      }
     }
 
     img {
