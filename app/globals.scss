@@ -50,7 +50,7 @@ body.dark, body.dark .dark-bg {
     }
 
     h2 {
-      @apply text-2xl md:text-3xl font-bold mb-6 pb-2;
+      @apply text-2xl md:text-3xl font-bold mb-6 pb-2 pt-2;
       border-bottom: 1px solid;
     }
 
