@@ -43,8 +43,8 @@ export default function LanguageSelector({ locale }: Props) {
 
   function getHref(language: Language) {
     const pathname = window.location.pathname
-    const key = language.key === 'en' ? 'www' : language.key
-    return `https://${key}.timurmakarov.com${pathname}`
+    const subdomain = language.key === 'en' ? '' : `${language.key}.`
+    return `https://${subdomain}timurmakarov.com${pathname}`
   }
 
   return (
