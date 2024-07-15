@@ -42,6 +42,11 @@ export async function generateMetadata({
       images: process.env.NEXT_PUBLIC_BACKEND_URI + data.attributes.image.data.attributes.url,
       card: 'summary_large_image',
     },
+    alternates: {
+      canonical: {
+        url: `https://${locale !== 'en' ? `${locale}.` : ''}timurmakarov.com/${params.slug}`,
+      },
+    },
   }
 }
 

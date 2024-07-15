@@ -47,6 +47,9 @@ export async function generateMetadata(): Promise<Metadata> {
         ru: 'https://ru.timurmakarov.com',
         'x-default': 'https://timurmakarov.com',
       },
+      canonical: {
+        url: `https://${locale !== 'en' ? `${locale}.` : ''}timurmakarov.com`,
+      },
     },
     icons: [
       {
