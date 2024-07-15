@@ -2,6 +2,7 @@ import { getArticleBySlug } from '@/app/_lib/queries'
 import { getLocale } from '../_lib/utils/i18n'
 import Image from 'next/image'
 import BlockRendererClient from '@/app/_components/BlockRendererClient'
+import styles from './index.module.scss'
 
 export default async function Home({ params }: { params: { slug: string } }) {
   const locale = getLocale()
@@ -26,8 +27,8 @@ export default async function Home({ params }: { params: { slug: string } }) {
         priority
       />
 
-      <div className="richTextWrapper">
-        <h1 className="text-4xl font-bold text-center my-8">{article.attributes.title}</h1>
+      <div className={styles.content}>
+        <h1 className={styles.title}>{article.attributes.title}</h1>
         <BlockRendererClient content={article.attributes.content} />
       </div>
     </div>
