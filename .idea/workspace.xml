@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93b287a0-9fdf-491b-9e75-e948b723a8b2" name="Changes" comment="" />
+    <list default="true" id="93b287a0-9fdf-491b-9e75-e948b723a8b2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/next-sitemap.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next-sitemap.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +49,7 @@
     "Node.js.coinChange.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "code.cleanup.on.save": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Merging master",
     "javascript.nodejs.core.library.configured.version": "20.12.0",
     "javascript.nodejs.core.library.typings.version": "20.12.14",
     "last_opened_file_path": "C:/Users/MadPc/Desktop/work/proj/timurmakarov.com/frontend/public",
