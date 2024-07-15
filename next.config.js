@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   images: {
+    domains: ['cms.timurmakarov.com', 'localhost'],
     remotePatterns: [
       {
         protocol: 'https',
