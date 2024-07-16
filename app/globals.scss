@@ -39,6 +39,12 @@ body.dark, body.dark .dark-bg {
   color: #EEE;
 }
 
+@layer components {
+  blockquote {
+    @apply p-4 my-4 border-s-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800;
+  }
+}
+
 @media screen and (max-width: 768px) {
   header {
     height: 122px;
@@ -50,9 +56,5 @@ body.dark, body.dark .dark-bg {
 
   .no-scroll-height {
     height: calc(100vh - 122px - 60px);
-  }
-
-  .richTextWrapper {
-    font-size: 1rem;
   }
 }
