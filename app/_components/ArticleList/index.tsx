@@ -16,7 +16,7 @@ export default async function ArticleList() {
 
   return (
     <div className="mt-8 px-2 lg:px-0">
-      <h1 className="text-3xl font-semibold">{messageByLocale.articles.title[locale]}</h1>
+      <h2 className="text-3xl font-semibold">{messageByLocale.articles.title[locale]}</h2>
       <p className="text-gray-500 dark:text-gray-400 mb-5">
         {messageByLocale.articles.subtitle[locale]}
       </p>
