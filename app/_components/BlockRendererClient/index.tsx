@@ -2,6 +2,7 @@
 import Image from 'next/image'
 
 import { type BlocksContent, BlocksRenderer } from '@strapi/blocks-react-renderer'
+import ArticleAccordion from '@/app/_components/ArticleAccordion'
 
 export default function BlockRendererClient({ content }: { content: BlocksContent }) {
   if (!content) return null
@@ -34,6 +35,18 @@ export default function BlockRendererClient({ content }: { content: BlocksConten
             default:
               return <h4 id={text}>{children}</h4>
           }
+        },
+        paragraph: ({ children }) => {
+          // @ts-ignore
+          const text: string = children?.[0]?.props?.text
+
+          if (text.startsWith('<accordion>')) {
+            const title = text.split('<accordion>')[1]
+            const content = text.split('<accordion>')[2].trimStart()
+            return <ArticleAccordion title={title} content={content} />
+          }
+
+          return <p>{children}</p>
         },
       }}
     />

@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93b287a0-9fdf-491b-9e75-e948b723a8b2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/_components/ArticleAccordion/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/[slug]/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/[slug]/index.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/BlockRendererClient/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/BlockRendererClient/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +70,7 @@
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "C:\\Users\\MadPc\\Desktop\\work\\proj\\timurmakarov.com\\frontend\\node_modules\\prettier",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
     "ts.external.directory.path": "C:\\Users\\MadPc\\Desktop\\work\\proj\\timurmakarov.com\\frontend\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }

@@ -12,8 +12,12 @@
     @apply text-xl md:text-2xl font-semibold mb-4;
   }
 
-  p {
+  & > p {
     @apply mb-4 whitespace-pre-line;
+  }
+
+  & > div {
+    @apply mb-4
   }
 
   ol {
