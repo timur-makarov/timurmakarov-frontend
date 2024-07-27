@@ -42,12 +42,6 @@ export default async function Bio() {
               Telegram
             </a>
           </div>
-          <div className="flex items-center gap-2">
-            <FaWhatsapp size={20} color="#25d366" />
-            <a href="https://wa.me/+995597556372" className="hover:underline">
-              WhatsApp
-            </a>
-          </div>
         </div>
 
         <div className={styles.markdownWrapper}>

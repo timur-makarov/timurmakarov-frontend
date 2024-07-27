@@ -8,7 +8,6 @@ import ThemeMediaQuery from '@/app/_components/ThemeMediaQuery'
 import { cookies } from 'next/headers'
 import Header from '@/app/_components/Header'
 import clsx from 'clsx'
-import { GoogleAnalytics } from '@next/third-parties/google'
 
 const font = Source_Serif_4({
   subsets: ['latin', 'cyrillic'],
@@ -88,7 +87,6 @@ export default function RootLayout({
         <ThemeMediaQuery themeCookie={themeCookie} />
         <Header />
         <main>{children}</main>
-        <GoogleAnalytics gaId={gaIdCookie} />
       </body>
     </html>
   )
