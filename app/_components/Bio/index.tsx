@@ -1,4 +1,5 @@
-import { FaGithub, FaTelegramPlane, FaWhatsapp } from 'react-icons/fa'
+import { FaGithub, FaTelegramPlane  } from 'react-icons/fa'
+import { FaSignalMessenger } from "react-icons/fa6"
 import { IoMail } from 'react-icons/io5'
 import { MdPinDrop } from 'react-icons/md'
 import ReactMarkdown from 'react-markdown'
@@ -26,20 +27,26 @@ export default async function Bio() {
           </div>
           <div className="flex items-center gap-2">
             <FaGithub size={20} />
-            <a href="https://github.com/Timur-Makarov" className="hover:underline">
+            <a href="https://github.com/Timur-Makarov" target='_blank' className="hover:underline">
               Github
             </a>
           </div>
           <div className="flex items-center gap-2">
             <IoMail size={20} color="#edcb51" />
-            <a href="mailto://hello@timurmakarov.com" className="hover:underline">
+            <a href="mailto://public@timurmakarov.com" target='_blank' className="hover:underline">
               Email
             </a>
           </div>
           <div className="flex items-center gap-2">
             <FaTelegramPlane size={20} color="#24A1DE" />
-            <a href="https://t.me/timurmakarov_com" className="hover:underline">
+            <a href="https://t.me/timurmakarov_com" target='_blank' className="hover:underline">
               Telegram
+            </a>
+          </div>
+          <div className="flex items-center gap-2">
+            <FaSignalMessenger size={20} color="#3A76F0" />
+            <a href="https://signal.me/#eu/aw-M83nK2gkCltMQ5fOVdKtG71gRyPCntJKect1KMpjdMOj4Q-5Bm4fQpRo39UyJ" target='_blank' className="hover:underline">
+              Signal
             </a>
           </div>
         </div>
