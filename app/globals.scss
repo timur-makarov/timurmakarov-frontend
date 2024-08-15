@@ -39,6 +39,10 @@ body.dark, body.dark .dark-bg {
   color: #EEE;
 }
 
+a {
+  @apply underline text-[#606060] dark:text-[#9f9f9f];
+}
+
 @layer components {
   blockquote {
     @apply p-4 my-4 border-s-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800;
