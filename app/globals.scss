@@ -39,15 +39,16 @@ body.dark, body.dark .dark-bg {
   color: #EEE;
 }
 
-ul, ol {
-  a {
-    @apply underline text-[#3e3e3e] dark:text-[#c1c1c1];
-  }
-}
 
 @layer components {
   blockquote {
     @apply p-4 my-4 border-s-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800;
+  }
+
+  .content-with-colorful-links {
+    a {
+      @apply text-[#3e3e3e] dark:text-[#c1c1c1]
+    }
   }
 }
 

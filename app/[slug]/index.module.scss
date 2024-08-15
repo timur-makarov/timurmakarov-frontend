@@ -39,6 +39,10 @@
   img {
     @apply mx-auto mb-4;
   }
+
+  a {
+    @apply underline;
+  }
 }
 
 .title {

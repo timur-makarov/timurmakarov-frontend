@@ -3,6 +3,7 @@ import { getLocale } from '../_lib/utils/i18n'
 import Image from 'next/image'
 import BlockRendererClient from '@/app/_components/BlockRendererClient'
 import styles from './index.module.scss'
+import clsx from 'clsx'
 
 export default async function Home({ params }: { params: { slug: string } }) {
   const locale = getLocale()
@@ -27,7 +28,7 @@ export default async function Home({ params }: { params: { slug: string } }) {
         priority
       />
 
-      <div className={styles.content}>
+      <div className={clsx(styles.content, 'content-with-colorful-links')}>
         <h1 className={styles.title}>{article.attributes.title}</h1>
         <BlockRendererClient content={article.attributes.content} />
       </div>
