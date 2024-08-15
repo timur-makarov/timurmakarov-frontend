@@ -39,8 +39,10 @@ body.dark, body.dark .dark-bg {
   color: #EEE;
 }
 
-a {
-  @apply underline text-[#606060] dark:text-[#9f9f9f];
+ul, ol {
+  a {
+    @apply underline text-[#3e3e3e] dark:text-[#c1c1c1];
+  }
 }
 
 @layer components {
