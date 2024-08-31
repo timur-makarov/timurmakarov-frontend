@@ -1,6 +1,7 @@
 import { getArticles } from '@/app/_lib/queries'
 import { getLocale } from '@/app/_lib/utils/i18n'
 import messageByLocale from '@/app/_assets/messageByLocale'
+import clsx from 'clsx'
 
 export default async function ArticleList() {
   const locale = getLocale()
@@ -22,9 +23,14 @@ export default async function ArticleList() {
       </p>
 
       <ul className="dark-bg-in-light dark:bg-[#f5f5f5] rounded-lg shadow divide-y divide-gray-200 dark:text-black">
-        {articles.map((article) => (
+        {articles.map((article, i) => (
           <a href={`/${article.attributes.slug}`} key={article.attributes.title}>
-            <li className="px-6 py-6">
+            <li
+              className={clsx(
+                'px-6 py-6',
+                i !== articles.length - 1 && 'dark:border-b-black border-b-white',
+              )}
+            >
               <div className="flex flex-col gap-1 md:gap-0 md:flex-row justify-between items-center mb-2">
                 <h3 className="font-bold text-2xl text-center">{article.attributes.title}</h3>
                 <span className="text-gray-200 dark:text-gray-500 text-xs">
