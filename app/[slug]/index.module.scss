@@ -43,6 +43,10 @@
   a {
     @apply underline;
   }
+
+  pre {
+    @apply whitespace-break-spaces break-all;
+  }
 }
 
 .title {
