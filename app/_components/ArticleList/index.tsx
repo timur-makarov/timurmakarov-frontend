@@ -28,7 +28,7 @@ export default async function ArticleList() {
             <li
               className={clsx(
                 'px-6 py-6',
-                i !== articles.length - 1 && 'dark:border-b-black border-b-white',
+                i !== articles.length - 1 && 'border-b dark:border-b-black border-b-white',
               )}
             >
               <div className="flex flex-col gap-1 md:gap-0 md:flex-row justify-between items-center mb-2">
