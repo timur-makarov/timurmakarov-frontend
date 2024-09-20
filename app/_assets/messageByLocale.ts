@@ -23,6 +23,18 @@ const messageByLocale = {
       ru: 'Без воды и всегда актуальны',
     },
   },
+  favoriteBooks: {
+    title: {
+      en: "Books - My Masters",
+      ru: "Книги - Мои Мастера"
+    }
+  },
+  favoriteQuote: {
+    title: {
+      en: "Quote to Live By",
+      ru: "Цитата Для Жизни"
+    }
+  },
   errors: {
     pageNotFound: {
       en: 'Page not found',

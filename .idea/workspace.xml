@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93b287a0-9fdf-491b-9e75-e948b723a8b2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/_components/FavouriteBooksList/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_components/FavouriteQuote/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[slug]/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/[slug]/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_assets/messageByLocale.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_assets/messageByLocale.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +28,6 @@
         <option value="JavaScript File" />
       </list>
     </option>
-  </component>
-  <component name="FormatOnSaveOptions">
-    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,7 +55,7 @@
     "git-widget-placeholder": "master",
     "javascript.nodejs.core.library.configured.version": "20.12.0",
     "javascript.nodejs.core.library.typings.version": "20.12.14",
-    "last_opened_file_path": "C:/Users/MadPc/Desktop/work/proj/timurmakarov.com/frontend/public",
+    "last_opened_file_path": "C:/Users/mpc/Desktop/work/projects/timurmakarov.com/frontend/app/_components",
     "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -64,20 +66,20 @@
     "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\MadPc\\Desktop\\work\\proj\\timurmakarov.com\\frontend\\node_modules\\prettier",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\mpc\\Desktop\\work\\projects\\timurmakarov.com\\frontend\\node_modules\\prettier",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "terminal",
+    "settings.editor.selected.configurable": "preferences.editor",
     "ts.external.directory.path": "C:\\Users\\mpc\\Desktop\\work\\projects\\timurmakarov.com\\frontend\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mpc\Desktop\work\projects\timurmakarov.com\frontend\app\_components" />
       <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend\public" />
       <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend\app\[slug]" />
       <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend\app\[article]" />
       <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend\app\components\Header" />
-      <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend\public" />
