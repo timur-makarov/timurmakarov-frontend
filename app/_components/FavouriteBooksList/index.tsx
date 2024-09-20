@@ -45,7 +45,7 @@ export default async function FavouriteBooksList() {
 
       <ul className="">
         {favoriteBooks.map((book, i) => (
-          <li className="flex gap-2" key={book.title}>
+          <li className="flex flex-wrap gap-x-2" key={book.title}>
             <span className="font-bold">{book.title}</span>-<span>{book.author}</span>
           </li>
         ))}
