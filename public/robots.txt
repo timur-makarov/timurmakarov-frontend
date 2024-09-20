@@ -1,12 +1,11 @@
+# *
 User-agent: *
 Allow: /
 
-User-agent: bingbot
-Allow: /
+# Host
+Host: https://timurmakarov.com
 
-User-agent: Twitterbot
-Allow: /
-
+# Sitemaps
 Sitemap: https://timurmakarov.com/sitemap.xml
 Sitemap: https://timurmakarov.com/server-sitemap.xml
 Sitemap: https://ru.timurmakarov.com/server-sitemap.xml

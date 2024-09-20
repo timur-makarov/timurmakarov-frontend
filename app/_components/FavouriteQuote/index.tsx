@@ -91,12 +91,12 @@ export default async function FavouriteQuote() {
         <br />
         But the only thing that frees us is that truth: You and I and everyone we know will die, and
         little to nothing that we do will ever matter on a cosmic scale. And while some people fear
-        that this truth will liberate them from all responsibility, that they'll go snort an eight
-        ball of cocaine and play in traffic, the reality is that this truth scares them because it
-        liberates them to responsibility. It means that there’s no reason to not love ourselves and
-        one another. That there’s no reason to not treat ourselves and our planet with respect. That
-        there’s no reason to not live every moment of our lives as though it were to be lived in
-        eternal recurrence. &gt;&gt; - Mark Manson
+        that this truth will liberate them from all responsibility, that they&apos;ll go snort an
+        eight ball of cocaine and play in traffic, the reality is that this truth scares them
+        because it liberates them to responsibility. It means that there’s no reason to not love
+        ourselves and one another. That there’s no reason to not treat ourselves and our planet with
+        respect. That there’s no reason to not live every moment of our lives as though it were to
+        be lived in eternal recurrence. &gt;&gt; - Mark Manson
       </p>
     </div>
   )
