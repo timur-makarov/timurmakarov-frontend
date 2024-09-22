@@ -38,7 +38,7 @@ export async function generateMetadata(): Promise<Metadata> {
         {
           url:
             `https://${locale !== 'en' ? `${locale}.` : ''}timurmakarov.com` +
-            '/squared-avatar.jpg',
+            '/images/squared-avatar.jpg',
         },
       ],
     },
@@ -50,7 +50,7 @@ export async function generateMetadata(): Promise<Metadata> {
         {
           url:
             `https://${locale !== 'en' ? `${locale}.` : ''}timurmakarov.com` +
-            '/squared-avatar.jpg',
+            '/images/squared-avatar.jpg',
         },
       ],
     },
