@@ -1,15 +1,15 @@
 import { getLocale } from '@/app/_lib/utils/i18n'
 import messageByLocale from '@/app/_assets/messageByLocale'
 
-export default async function FavouriteQuote() {
+export default async function FavoriteQuote() {
   const locale = getLocale()
 
   return (
     <div className="mt-8 px-2 lg:px-0">
       <h2 className="text-3xl font-semibold mb-4">{messageByLocale.favoriteQuote.title[locale]}</h2>
       <p className="max-w-[680px]">
-        Experiences generate emotions. Emotions generate values. Values generate narratives
-        of meaning. And people who share similar narratives of meaning come together to generate
+        Experiences generate emotions. Emotions generate values. Values generate narratives of
+        meaning. And people who share similar narratives of meaning come together to generate
         religions. The more effective (or affective) a religion, the more industrious and
         disciplined the adherents. And the more industrious and disciplined the adherents, the more
         likely the religion is to spread to other people, to give them a sense of self-control and a
@@ -20,7 +20,7 @@ export default async function FavouriteQuote() {
         <br />
         <br />
         Therefore, it is the conflict that maintains the hope. So, we’ve got it backward: everything
-        being fucked doesn’t require hope; hope requires everything being fucked.
+        being fucked doesn&apos;t require hope; hope requires everything being fucked.
         <br />
         <br />
         The sources of hope that give our lives a sense of meaning are the same sources of division
