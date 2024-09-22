@@ -8,7 +8,7 @@ export default async function FavouriteQuote() {
     <div className="mt-8 px-2 lg:px-0">
       <h2 className="text-3xl font-semibold mb-4">{messageByLocale.favoriteQuote.title[locale]}</h2>
       <p className="max-w-[680px]">
-        &lt;&lt; Experiences generate emotions. Emotions generate values. Values generate narratives
+        Experiences generate emotions. Emotions generate values. Values generate narratives
         of meaning. And people who share similar narratives of meaning come together to generate
         religions. The more effective (or affective) a religion, the more industrious and
         disciplined the adherents. And the more industrious and disciplined the adherents, the more
@@ -96,7 +96,7 @@ export default async function FavouriteQuote() {
         because it liberates them to responsibility. It means that there’s no reason to not love
         ourselves and one another. That there’s no reason to not treat ourselves and our planet with
         respect. That there’s no reason to not live every moment of our lives as though it were to
-        be lived in eternal recurrence. &gt;&gt; - Mark Manson
+        be lived in eternal recurrence. - <b>Mark Manson</b>
       </p>
     </div>
   )
