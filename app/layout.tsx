@@ -8,6 +8,7 @@ import ThemeMediaQuery from '@/app/_components/ThemeMediaQuery'
 import { cookies } from 'next/headers'
 import Header from '@/app/_components/Header'
 import clsx from 'clsx'
+import OGImage from '@/public/images/squared-avatar.jpg'
 
 const font = Source_Serif_4({
   subsets: ['latin', 'cyrillic'],
@@ -34,11 +35,13 @@ export async function generateMetadata(): Promise<Metadata> {
       type: 'website',
       locale: locale,
       siteName: data.attributes.title,
+      images: [{ url: OGImage.src }],
     },
     twitter: {
       creator: '@timurmakarov_',
       site: '@timurmakarov_',
       card: 'summary_large_image',
+      images: [{ url: OGImage.src }],
     },
     alternates: {
       languages: {
