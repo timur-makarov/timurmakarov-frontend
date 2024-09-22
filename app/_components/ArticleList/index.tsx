@@ -32,7 +32,7 @@ export default async function ArticleList() {
               )}
             >
               <div className="flex flex-col gap-1 md:gap-0 md:flex-row justify-between items-center mb-2">
-                <h3 className="font-bold text-2xl text-center">{article.attributes.title}</h3>
+                <h3 className="font-semibold text-2xl text-center">{article.attributes.title}</h3>
                 <span className="text-gray-200 dark:text-gray-500 text-xs">
                   {messageByLocale.articles.lastUpdate[locale]}:{' '}
                   {displayDate(article.attributes.updatedAt)}
