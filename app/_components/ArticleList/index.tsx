@@ -23,7 +23,7 @@ export default async function ArticleList() {
       </p>
 
       <ul className="dark-bg-in-light dark:bg-[#f5f5f5] rounded-lg shadow divide-y divide-gray-200 dark:text-black">
-        {articles.map((article, i) => (
+        {articles.reverse().map((article, i) => (
           <a href={`/${article.attributes.slug}`} key={article.attributes.title}>
             <li
               className={clsx(
