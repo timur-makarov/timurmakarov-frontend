@@ -25,15 +25,15 @@ const messageByLocale = {
   },
   favoriteBooks: {
     title: {
-      en: "Books - My Masters",
-      ru: "Книги - Мои Мастера"
-    }
+      en: 'Books - My Masters',
+      ru: 'Книги - Мои Мастера',
+    },
   },
   favoriteQuote: {
     title: {
-      en: "Quote to Live By",
-      ru: "Цитата Для Жизни"
-    }
+      en: 'Quote to Live By',
+      ru: 'Цитата Для Жизни',
+    },
   },
   errors: {
     pageNotFound: {
@@ -49,6 +49,10 @@ const messageByLocale = {
     location: {
       en: 'Tbilisi',
       ru: 'Тбилиси',
+    },
+    cv: {
+      en: 'Resume',
+      ru: 'Резюме',
     },
   },
 }

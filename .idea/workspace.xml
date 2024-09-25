@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93b287a0-9fdf-491b-9e75-e948b723a8b2" name="Changes" comment="" />
+    <list default="true" id="93b287a0-9fdf-491b-9e75-e948b723a8b2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_assets/messageByLocale.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_assets/messageByLocale.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/Bio/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/Bio/index.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,11 +78,11 @@
       <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend\app\components\Header" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mpc\Desktop\work\projects\timurmakarov.com\frontend\public" />
       <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend\public" />
       <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend\app" />
       <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend" />
       <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend\src\app" />
-      <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend\src\lib\utils" />
     </key>
   </component>
   <component name="SharedIndexes">
