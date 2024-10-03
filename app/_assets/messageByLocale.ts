@@ -11,16 +11,16 @@ const messageByLocale = {
   },
   articles: {
     title: {
-      en: 'Articles',
-      ru: 'Статьи',
+      en: 'Notes and Thoughts',
+      ru: 'Заметки и Мысли',
     },
     lastUpdate: {
       en: 'Last update',
       ru: 'Последнее обновление',
     },
     subtitle: {
-      en: 'No fluff and always up to date',
-      ru: 'Без воды и всегда актуальны',
+      en: 'Collect, edit, and think about pieces of books',
+      ru: 'Собираю, редактирую, и думаю о фрагментах из книг',
     },
   },
   favoriteBooks: {
