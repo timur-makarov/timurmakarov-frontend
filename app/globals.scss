@@ -35,7 +35,7 @@ body.dark header {
   background-color: #193142;
 }
 
-body.dark, body.dark .dark-bg, body.dark code {
+body.dark, body.dark .dark-bg {
   background-color: #212121;
   color: #F6F6F6;
 }
@@ -43,6 +43,11 @@ body.dark, body.dark .dark-bg, body.dark code {
 .dark-bg-in-light {
   background-color: #212121;
   color: #F6F6F6;
+}
+
+body.dark code {
+  background-color: #F6F6F6;
+  color: #212121;
 }
 
 
