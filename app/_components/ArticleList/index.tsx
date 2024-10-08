@@ -22,7 +22,7 @@ export default async function ArticleList() {
         {messageByLocale.articles.subtitle[locale]}
       </p>
 
-      <ul className="dark-bg-in-light dark:bg-[#f5f5f5] rounded-lg shadow divide-y divide-gray-200 dark:text-black">
+      <ul className="dark-bg-in-light dark:bg-[#f6f6f6] dark:text-[#212121] rounded-lg shadow divide-y divide-gray-200">
         {articles.reverse().map((article, i) => (
           <a href={`/${article.attributes.slug}`} key={article.attributes.title}>
             <li
