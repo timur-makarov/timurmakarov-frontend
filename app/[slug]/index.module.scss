@@ -47,6 +47,10 @@
   pre {
     @apply whitespace-break-spaces break-all;
   }
+
+  code {
+    @apply mb-4 block p-2 dark:bg-[#f5f5f5] dark:text-black dark-bg-in-light;
+  }
 }
 
 .title {
