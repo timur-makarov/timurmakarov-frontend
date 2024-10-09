@@ -19,8 +19,8 @@ const messageByLocale = {
       ru: 'Последнее обновление',
     },
     subtitle: {
-      en: 'Collect, edit, and think about pieces of books',
-      ru: 'Собираю, редактирую, и думаю о фрагментах из книг',
+      en: 'Collect, edit, and think about pieces of information on favorite topics',
+      ru: 'Собираю, редактирую, и думаю о частицах информации на любимые темы',
     },
   },
   favoriteBooks: {
