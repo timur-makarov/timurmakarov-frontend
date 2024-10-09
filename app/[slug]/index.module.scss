@@ -44,12 +44,8 @@
     @apply underline;
   }
 
-  pre {
-    @apply whitespace-break-spaces break-all;
-  }
-
   code {
-    @apply mb-4 block p-2 bg-[#212121] text-[#f6f6f6];
+    @apply mb-4 block p-2 bg-[#212121] text-[#f6f6f6] overflow-x-auto;
   }
 }
 
