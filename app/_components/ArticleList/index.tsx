@@ -38,7 +38,7 @@ export default async function ArticleList() {
                   {displayDate(article.attributes.updatedAt)}
                 </span>
               </div>
-              <p className="text-gray-300 dark:text-gray-700 text-base">
+              <p className="text-gray-300 dark:text-gray-700 text-base text-center md:text-left">
                 {article.attributes.description}
               </p>
             </li>
