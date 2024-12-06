@@ -29,18 +29,13 @@ export default async function Bio() {
     },
     {
       icon: <IoMail size={20} color="#edcb51" />,
-      url: 'mailto://public@timurmakarov.com',
+      url: 'mailto://contact@timurmakarov.com',
       title: 'Email',
     },
     {
       icon: <FaTelegramPlane size={20} color="#24A1DE" />,
       url: 'https://t.me/timurmakarov_com',
       title: 'Telegram',
-    },
-    {
-      icon: <FaSignalMessenger size={20} color="#3A76F0" />,
-      url: 'https://shorturl.at/mG5ap',
-      title: 'Signal',
     },
     {
       icon: <TbFileCv size={20} color="#cf4040" />,
