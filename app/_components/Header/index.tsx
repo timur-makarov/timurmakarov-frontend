@@ -1,3 +1,4 @@
+"use server"
 import { getProfileData } from '@/app/_lib/queries'
 import LanguageSelector from '@/app/_components/Header/LocaleSelect'
 import ThemeButton from '@/app/_components/Header/ThemeButton'
