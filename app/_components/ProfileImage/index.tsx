@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import coverImage from '@/public/images/tbilisi.jpg'
 import profileImage from '@/public/images/avatar.jpg'
+import coverImage from '@/public/images/tbilisi.jpg'
 
 export default function ProfileImage() {
   return (
@@ -19,7 +19,7 @@ export default function ProfileImage() {
         src={profileImage}
         width={100}
         height={150}
-        className="absolute bottom-0 left-0"
+        className=""
         alt="Timur Makarov avatar"
         loading="eager"
         priority

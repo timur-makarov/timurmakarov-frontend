@@ -1,19 +1,19 @@
-FROM node:20.12-alpine as builder
+FROM node:20.16-alpine AS builder
 ARG CONFIG
 ARG API_TOKEN
 WORKDIR /app
 COPY package.json .
-RUN npm i -g husky
-RUN npm i
+RUN npm i -g pnpm
+RUN pnpm i --force --loglevel verbose
 COPY . .
 RUN test -n "${API_TOKEN}"
 RUN test -n "${CONFIG}"
 COPY configs/${CONFIG} .env
 RUN sed -i "s/API_TOKEN=/API_TOKEN=${API_TOKEN}/g" .env
-RUN npm run build
-RUN npm prune --production
+RUN pnpm run build
+RUN pnpm prune --production
 
-FROM node:20.12-alpine
+FROM node:20.16-alpine
 WORKDIR /app
 
 COPY --from=builder /app/next.config.js /app/next.config.js

@@ -25,14 +25,14 @@ const messageByLocale = {
   },
   favoriteBooks: {
     title: {
-      en: 'Books - My Masters',
-      ru: 'Книги - Мои Мастера',
+      en: 'Favorite Books',
+      ru: 'Любимые книги',
     },
   },
   favoriteQuote: {
     title: {
-      en: 'Quote to Live By',
-      ru: 'Цитата Для Жизни',
+      en: 'Favorite Quote',
+      ru: 'Любимая цитата',
     },
   },
   errors: {

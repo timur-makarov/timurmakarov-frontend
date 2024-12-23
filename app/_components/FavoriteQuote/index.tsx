@@ -1,7 +1,7 @@
 import { getLocale } from '@/app/_lib/utils/i18n'
 import messageByLocale from '@/app/_assets/messageByLocale'
 
-export default async function FavoriteQuote() {
+export default function FavoriteQuote() {
   const locale = getLocale()
 
   return (

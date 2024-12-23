@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93b287a0-9fdf-491b-9e75-e948b723a8b2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[slug]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_assets/messageByLocale.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_assets/messageByLocale.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/ArticleList/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/ArticleList/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/Bio/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/Bio/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/FavoriteBooksList/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/FavoriteBooksList/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/FavoriteQuote/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/FavoriteQuote/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_components/ProfileImage/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/ProfileImage/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +56,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Docker.Dockerfile.executor&quot;: &quot;Run&quot;,
     &quot;Node.js.coinChange.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
@@ -83,6 +97,27 @@
       <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend" />
       <recent name="C:\Users\MadPc\Desktop\work\proj\timurmakarov.com\frontend\src\app" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Dockerfile" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>

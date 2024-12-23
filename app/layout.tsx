@@ -91,7 +91,6 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   const themeCookie = cookies().get('theme')?.value
-  const gaIdCookie = cookies().get('gaId')?.value || ''
   const themeClass = themeCookie === '0' ? 'light' : themeCookie ? 'dark' : 'light'
   const locale = getLocale()
 

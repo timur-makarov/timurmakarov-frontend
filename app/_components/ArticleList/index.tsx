@@ -17,10 +17,10 @@ export default async function ArticleList() {
 
   return (
     <div className="mt-8 px-2 lg:px-0">
-      <h2 className="text-3xl font-semibold">{messageByLocale.articles.title[locale]}</h2>
-      <p className="text-gray-500 dark:text-gray-400 mb-5">
-        {messageByLocale.articles.subtitle[locale]}
-      </p>
+      {/*<h2 className="text-3xl font-semibold">{messageByLocale.articles.title[locale]}</h2>*/}
+      {/*<p className="text-gray-500 dark:text-gray-400 mb-5">*/}
+      {/*  {messageByLocale.articles.subtitle[locale]}*/}
+      {/*</p>*/}
 
       <ul className="dark-bg-in-light dark:bg-[#f6f6f6] dark:text-[#212121] rounded-lg shadow divide-y divide-gray-200">
         {articles.reverse().map((article, i) => (

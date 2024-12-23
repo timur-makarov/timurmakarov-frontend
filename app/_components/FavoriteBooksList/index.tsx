@@ -1,7 +1,7 @@
 import { getLocale } from '@/app/_lib/utils/i18n'
 import messageByLocale from '@/app/_assets/messageByLocale'
 
-export default async function FavoriteBooksList() {
+export default function FavoriteBooksList() {
   const locale = getLocale()
 
   const favoriteBooks = [
@@ -34,7 +34,7 @@ export default async function FavoriteBooksList() {
       author: 'David Deida',
     },
     {
-      title: 'Market Wizards (Series of Books)',
+      title: 'Market Wizards (Series)',
       author: 'Jack Schwager',
     },
   ]
