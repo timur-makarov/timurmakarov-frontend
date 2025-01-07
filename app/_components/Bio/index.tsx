@@ -46,7 +46,7 @@ export default async function Bio() {
     },
     {
       icon: <TbFileCv size={20} color="#cf4040" />,
-      url: `/cv-${locale}.pdf`,
+      url: `https://docs.google.com/document/d/10SNkU-21nv17emvFSS2j_zYmTkJl0YjJbwPswQxASZ8/edit?usp=sharing`,
       title: cvText,
     },
   ]

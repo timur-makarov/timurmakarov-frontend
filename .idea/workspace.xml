@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93b287a0-9fdf-491b-9e75-e948b723a8b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[slug]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_assets/messageByLocale.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_assets/messageByLocale.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/ArticleList/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/ArticleList/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/Bio/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/Bio/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/FavoriteBooksList/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/FavoriteBooksList/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/FavoriteQuote/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/FavoriteQuote/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_components/ProfileImage/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_components/ProfileImage/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
