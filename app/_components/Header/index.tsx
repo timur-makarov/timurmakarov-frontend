@@ -1,6 +1,5 @@
-"use server"
+'use server'
 import { getProfileData } from '@/app/_lib/queries'
-import LanguageSelector from '@/app/_components/Header/LocaleSelect'
 import ThemeButton from '@/app/_components/Header/ThemeButton'
 import { getLocale } from '@/app/_lib/utils/i18n'
 import { getThemeNumber } from '@/app/_lib/utils/theme'
@@ -20,7 +19,7 @@ export default async function Header() {
 
         <div className="flex items-center gap-2">
           <ThemeButton locale={locale} themeNumber={themeNumber} />
-          <LanguageSelector locale={locale} />
+          {/*<LanguageSelector locale={locale} />*/}
         </div>
       </div>
     </header>
