@@ -2,6 +2,7 @@ import { Article } from '@/app/_lib/types'
 
 const defaultHeaders = {
   Authorization: 'Bearer ' + process.env.API_TOKEN,
+  'Strapi-Response-Format': 'v4',
 }
 
 function getURL(path: string, locale: string, options?: Record<string, string>): string {
