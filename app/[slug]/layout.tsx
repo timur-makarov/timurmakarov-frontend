@@ -20,32 +20,17 @@ export async function generateMetadata({
     title: data.attributes.title,
     description: data.attributes.description,
     openGraph: {
-      locale: locale,
       type: 'article',
       title: data.attributes.title,
       description: data.attributes.description,
-      url: `https://${locale !== 'en' ? `${locale}.` : ''}timurmakarov.com/${params.slug}`,
+      url: `https://timurmakarov.com/${params.slug}`,
       publishedTime: data.attributes.createdAt,
       modifiedTime: data.attributes.updatedAt,
       authors: 'Timur Makarov',
-      images: [
-        {
-          url: process.env.NEXT_PUBLIC_BACKEND_URI + data.attributes.image.data.attributes.url,
-        },
-      ],
     },
     twitter: {
-      creator: '@timurmakarov_',
-      site: '@timurmakarov_',
       title: data.attributes.title,
       description: data.attributes.description,
-      images: process.env.NEXT_PUBLIC_BACKEND_URI + data.attributes.image.data.attributes.url,
-      card: 'summary_large_image',
-    },
-    alternates: {
-      canonical: {
-        url: `https://${locale !== 'en' ? `${locale}.` : ''}timurmakarov.com/${params.slug}`,
-      },
     },
   }
 }
