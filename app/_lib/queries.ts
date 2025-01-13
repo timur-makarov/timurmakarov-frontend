@@ -58,12 +58,12 @@ export type ArticleData = {
 }
 
 export async function getArticles(locale: string): Promise<ArticleData[]> {
-  const res = await fetch(getURL('articles', locale, { populate: 'image' }), {
+  const res = await fetch(getURL('articles', locale), {
     headers: defaultHeaders,
   })
 
   if (!res.ok) {
-    throw new Error('Failed to fetch articles')
+    throw new Error('Failed to fetch articles. Status:' + res.status)
   }
 
   const { data } = await res.json()
@@ -71,12 +71,9 @@ export async function getArticles(locale: string): Promise<ArticleData[]> {
 }
 
 export async function getArticleBySlug(locale: string, slug: string): Promise<ArticleData> {
-  const res = await fetch(
-    getURL(`articles`, locale, { 'filters[slug][$eq]': slug, populate: 'image' }),
-    {
-      headers: defaultHeaders,
-    },
-  )
+  const res = await fetch(getURL(`articles`, locale, { 'filters[slug][$eq]': slug }), {
+    headers: defaultHeaders,
+  })
 
   if (!res.ok) {
     throw new Error('Failed to fetch article')
