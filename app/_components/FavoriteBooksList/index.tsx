@@ -30,6 +30,10 @@ export default function FavoriteBooksList() {
       author: 'Eckhart Tolle',
     },
     {
+      title: 'Four Thousand Weeks',
+      author: 'Oliver Burkeman',
+    },
+    {
       title: 'The Way of The Superior Man',
       author: 'David Deida',
     },
