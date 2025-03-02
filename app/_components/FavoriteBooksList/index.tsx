@@ -41,6 +41,10 @@ export default function FavoriteBooksList() {
       title: 'Market Wizards (Series)',
       author: 'Jack Schwager',
     },
+    {
+      title: 'Trading in the Zone',
+      author: 'Mark Douglas',
+    },
   ]
 
   return (
